@@ -1,0 +1,36 @@
+{
+  "name": "imagine-ascii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "ts-node src/index.ts",
+    "dev": "ts-node src/dev.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karmabadger/imagine-ascii.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karmabadger/imagine-ascii/issues"
+  },
+  "homepage": "https://github.com/karmabadger/imagine-ascii#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@types/yargs": "^17.0.8"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "jimp": "^0.16.1",
+    "ts-node": "^10.5.0",
+    "yargs": "^17.1.1-candidate.0"
+  },
+  "volta": {
+    "node": "16.14.0",
+    "npm": "8.5.2"
+  }
+}
